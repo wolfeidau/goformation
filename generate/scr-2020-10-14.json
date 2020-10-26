@@ -1,0 +1,24 @@
+{
+  "ResourceSpecificationVersion": "2016-10-14",
+  "ResourceSpecificationTransform": "170889777468::SecurityTransform",
+  "ResourceTypes": {
+    "Secure::S3::SecureBucket": {
+      "Documentation": "https://github.com/wolfeidau/secure-cloudformation-resources/blob/master/versions/2020-10-14.md#test",
+      "Properties": {
+        "Baseline": {
+          "Documentation": "https://github.com/wolfeidau/secure-cloudformation-resources/blob/master/versions/2016-10-14.md#test",
+          "Required": true,
+          "PrimitiveType": "String",
+          "UpdateType": "Immutable"
+        },
+        "Name": {
+          "Documentation": "https://github.com/wolfeidau/secure-cloudformation-resources/blob/master/versions/2016-10-14.md#test",
+          "Required": false,
+          "PrimitiveType": "String",
+          "UpdateType": "Immutable"
+        }
+      }
+    }
+  },
+  "PropertyTypes": {}
+}

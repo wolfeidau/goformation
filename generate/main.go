@@ -16,6 +16,7 @@ func main() {
 		// We have a manually generated SAM specification in this repo too
 		// which needs to be manually updated when the SAM spec changes
 		"sam": "file://generate/sam-2016-10-31.json",
+		"scr": "file://generate/scr-2020-10-14.json",
 	}
 
 	rg, err := NewResourceGenerator(cloudformationSpec, otherSpecs)
